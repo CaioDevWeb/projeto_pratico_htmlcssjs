@@ -1,0 +1,19 @@
+.icon-container {
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	background-color: #e1f3e1;
+	border-radius: 30px;
+	position: relative;
+}
+
+.icon-container .material-icons {
+	display: block;
+	color: rgb(84, 209, 84);
+	position: absolute;
+	top: 70px;
+	left: 70px;
+	transform: translate(-50%, -50%);
+	cursor: default;
+	font-size: 5em;
+}

@@ -1,0 +1,21 @@
+h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 1.562em;
+	margin: 0 0 20px 0;
+}
+h2:after {
+	content: '';
+	display: block;
+	background-color: rgb(130,130,130);
+	margin: 10px auto 0 auto;
+	width: 5%;
+	height: 2px;
+}
+.subtitle {
+	margin-bottom: 80px;
+}
+
+.text-left {
+	text-align: left;
+}

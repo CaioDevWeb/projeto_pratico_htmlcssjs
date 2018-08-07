@@ -1,0 +1,8 @@
+@import url('../style.css');
+
+/* CLIENTES */
+
+#header.page-clientes {
+	background: url('../../images/background-clientes.jpg') no-repeat fixed;
+	background-size: cover;
+}

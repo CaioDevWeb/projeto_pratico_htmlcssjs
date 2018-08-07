@@ -1,0 +1,65 @@
+@import url('../style.css');
+
+/*****
+*****AQUI SÓ TEM A PARTE QUE ESTÁ DENTRO DO MAIN *****
+
+***********/
+
+
+#header.page-home {
+	background: #000 url('../../images/background-header.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+/*HOW IT WORK*/
+
+#customers, #how-it-work {
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+/*CUSTOMERS*/
+
+#customers .container {
+	max-width: 1000px;
+}
+
+#customers {
+	background-color: rgb(242,242,242);
+}
+
+#customers .btn {
+	margin-top: 80px;
+	background-color: rgb(220,220,220);
+	color: rgb(130,130,130);
+}
+
+#customers .btn:hover {
+	background-color: rgb(130,130,130);
+	color: rgb(220,220,220);
+}
+
+#customers .btn .material-icons{
+	vertical-align: middle;
+	font-size: 1em;
+}
+
+
+
+/* TEAM */
+
+#team {
+	background-color: rgb(84, 209, 84);
+	color: #fff;
+}
+#team .img-box-round{
+	width: 140px;
+	height: 130px;
+}
+#team h2:after {
+	background: rgb(255,255,255);
+}
+
+#team h2 {
+	padding-top: 30px;
+}

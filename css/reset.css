@@ -1,0 +1,29 @@
+/****
+	RESET CSS
+*/
+
+*:before, *:after, * {box-sizing: border-box;}
+body {margin: 0; padding: 0;}
+a {text-decoration: none; color: #fff;}
+.text-center {text-align:center;}
+p {margin: 10px 0 20px 0;}
+.img-box-round {
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.img-box-label:before {
+	content: '';
+	display: block;
+	width: 36%;
+	height: 60px;
+	border-right: 2px solid rgb(32, 123, 32);
+	background: transparent;
+	margin-bottom: 10px;
+}
+.section {
+	padding: 30px 0 30px 0;
+}
+ul li {
+	list-style: none;
+}

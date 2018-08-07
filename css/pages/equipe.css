@@ -1,0 +1,49 @@
+@import url('../style.css');
+
+/* EQUIPE */
+#header.page-equipe {
+	background: url('../../images/background-equipe.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.section.back-equipe {
+	background: #f3f0e7;
+}
+
+.back-equipe .img-box-round {
+	border: 2px solid rgb(84,209,84);
+}
+
+.back-equipe .col {
+	margin-bottom: 10px;
+}
+
+.team-member {
+	position: relative;
+}
+
+.team-member .description {
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	border: 5px solid rgba(0,0,0,.8);
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	width: 400px;
+}
+
+.team-member:hover .description {
+	display: block;
+}
+
+.team-member:nth-child(4) .description, .team-member:nth-child(5) .description {
+	left: auto;
+	right: 50%;
+}
+
+.description .social ul li {
+	display: inline-block;
+	padding-right: 10px;
+}
