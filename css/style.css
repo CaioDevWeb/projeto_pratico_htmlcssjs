@@ -38,7 +38,7 @@ body {
 	background-color: rgba(84,209,84,.3);
 }
 #header {
-	background: #000000 fixed;
+	background: #000000 no-repeat fixed center;
 	background-size: cover;
 	color: #fff;
 	padding-top: 20px;
@@ -63,6 +63,7 @@ body {
 
 #header h1 {
 	font-size: 3.625em;
+	line-height: 50px;
 }
 #header .title {
 	text-align: center;
@@ -143,7 +144,45 @@ body {
 	height: 8vh;
 }
 
-#footer .copyright p {
-	line-height: 45px;
-}
 
+
+/* @MEDIA FEITAS POR MIM*/
+ 
+ @media (max-width: 991px)
+ {
+    .page-quemsomos ul {
+        margin: 0 0 0 -25px;
+    }
+
+    .page-quemsomos h1 {
+        font-size: 0.675em;
+    }
+
+    .page-home ul {
+		margin: 0 0 0 -17px;
+    }
+
+    #customers .row:nth-child(1) {
+    	display: block;
+    	margin: 0 auto;
+    }
+
+    #customers .row:nth-child(2) {
+    	display: none;
+    }
+
+    #customers .row:nth-child(1) .col:nth-child(4) {
+    	display: none;
+    }
+
+    #team .row .col:nth-child(5) {
+    	display: none;
+    }
+
+    #team .row:nth-child(1) {
+    	text-align: center;
+    }
+    #team p.img-box-label:before {
+        margin-left:40px;
+    }
+ }  

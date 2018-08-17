@@ -4,25 +4,38 @@
 /* CONTATO */
 
 main {
-	background-color: rgb(243, 240, 231);
+    background-color: rgb(243, 240, 231);
 }
 
 .page-form h2 {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 #header.page-contato {
-	background: url('../../images/background-contato.jpg') no-repeat;
-	background-size: cover;
+    background: url('../../images/background-contato.jpg') no-repeat;
+    background-size: cover;
 }
 
 input[type="submit"] {
-	width: 200px;
-	display: block;
-	margin: 20px auto;
-	border-radius: 0;
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 0;
+    padding:30px 20px;
 }
 
 input[type="submit"]:hover {
-	opacity: .7;
-	transition: ease .7s all;
+    opacity: .7;
+    transition: ease .7s all;
+}
+
+textarea {
+    margin:0;
+}
+
+
+form.row input:hover  input::placeholder{
+    opacity: 0.5;
+    position:relative;
+    top:0;
+    left:100px;
 }
